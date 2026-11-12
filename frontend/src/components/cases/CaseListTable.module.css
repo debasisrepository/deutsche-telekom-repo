@@ -1,0 +1,14 @@
+.loadingMessage,
+.emptyMessage {
+  padding: var(--cds-spacing-05);
+  color: var(--cds-text-secondary);
+}
+
+.caseLink {
+  color: var(--cds-link-primary);
+}
+
+.channelText {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8125rem;
+}

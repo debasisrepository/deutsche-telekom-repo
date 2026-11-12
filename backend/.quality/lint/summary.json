@@ -1,0 +1,72 @@
+{
+  "status": "issues_found",
+  "target_path": "/repos/deutsche-telekom-repo/backend",
+  "requested_linters": [
+    "ruff"
+  ],
+  "applicable_linters": [
+    "ruff"
+  ],
+  "selected_linters": [
+    "ruff"
+  ],
+  "message": "All findings, including any findings omitted from the inline response, are available in the report files listed under `report_paths`.",
+  "summary": {
+    "errors": 3,
+    "warnings": 0,
+    "total_findings": 3,
+    "inline_findings": 3,
+    "remaining_findings": 0,
+    "linters_run": 1,
+    "linters_with_issues": 1,
+    "linters_unavailable": 0
+  },
+  "by_tool": {
+    "ruff": {
+      "status": "issues_found",
+      "errors": 3,
+      "warnings": 0,
+      "total_findings": 3,
+      "inline_findings": 3,
+      "remaining_findings": 0,
+      "files": [
+        {
+          "path": "/repos/deutsche-telekom-repo/backend/tests/test_pipeline_migration_parity.py",
+          "findings": [
+            {
+              "msg": "`subprocess.run` without explicit `check` argument",
+              "line": 65,
+              "column": 12,
+              "code": "PLW1510"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/backend/tests/test_pipeline_seed_runs.py",
+          "findings": [
+            {
+              "msg": "`subprocess.run` without explicit `check` argument",
+              "line": 125,
+              "column": 12,
+              "code": "PLW1510"
+            },
+            {
+              "msg": "Unpacked variable `output` is never used",
+              "line": 141,
+              "column": 11,
+              "code": "RUF059"
+            }
+          ]
+        }
+      ],
+      "report_path": "/repos/deutsche-telekom-repo/backend/.quality/lint/ruff-result.json",
+      "fix_applied": true
+    }
+  },
+  "report_dir": "/repos/deutsche-telekom-repo/backend/.quality/lint",
+  "report_paths": {
+    "summary": "/repos/deutsche-telekom-repo/backend/.quality/lint/summary.json",
+    "ruff": "/repos/deutsche-telekom-repo/backend/.quality/lint/ruff-result.json"
+  },
+  "fix": true
+}

@@ -1,0 +1,64 @@
+.stepper {
+  display: flex;
+  list-style: none;
+  margin: 0 0 var(--cds-spacing-05) 0;
+  padding: 0;
+}
+
+.step {
+  flex: 1;
+  margin-right: var(--cds-spacing-02);
+  padding-top: var(--cds-spacing-04);
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  column-gap: var(--cds-spacing-02);
+  font-size: 0.75rem;
+}
+
+.step.done,
+.step.current {
+  border-top: 3px solid var(--cds-interactive);
+}
+
+.step.pending {
+  border-top: 3px solid var(--cds-border-subtle-01);
+}
+
+.step.closed {
+  border-top: 3px solid var(--cds-border-strong-01);
+}
+
+.stepLabel {
+  font-size: 0.875rem;
+  font-weight: 600;
+  grid-column: 2;
+}
+
+.stepDescription {
+  grid-column: 2;
+  color: var(--cds-text-secondary);
+}
+
+.icon {
+  color: var(--cds-interactive);
+}
+
+.ring {
+  width: 14px;
+  height: 14px;
+  margin: 2px;
+  border-radius: 50%;
+  border: 2px solid var(--cds-border-strong-01);
+  display: inline-block;
+}
+
+.ringCurrent {
+  width: 14px;
+  height: 14px;
+  margin: 2px;
+  border-radius: 50%;
+  border: 2px solid var(--cds-interactive);
+  background: var(--cds-interactive);
+  box-shadow: inset 0 0 0 2px var(--cds-background);
+  display: inline-block;
+}

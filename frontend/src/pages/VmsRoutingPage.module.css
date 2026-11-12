@@ -1,0 +1,188 @@
+.main {
+  padding: var(--cds-spacing-05) var(--cds-spacing-07) var(--cds-spacing-09);
+}
+
+.breadcrumb {
+  color: var(--cds-text-secondary);
+  margin-bottom: var(--cds-spacing-03);
+}
+
+.breadcrumbLink {
+  text-decoration: none;
+}
+
+.pageHeading {
+  margin-bottom: var(--cds-spacing-03);
+}
+
+.stepper {
+  display: flex;
+  list-style: none;
+  margin: 0 0 var(--cds-spacing-05) 0;
+  padding: 0;
+}
+
+.step {
+  flex: 1;
+  margin-right: var(--cds-spacing-02);
+  padding-top: var(--cds-spacing-04);
+  border-top: 3px solid var(--cds-border-subtle-01);
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  column-gap: var(--cds-spacing-02);
+}
+
+.step.done {
+  border-top-color: var(--cds-interactive);
+}
+
+.step.closed {
+  border-top-color: var(--cds-border-strong-01);
+}
+
+.icon {
+  color: var(--cds-interactive);
+}
+
+.ringClosed {
+  width: 14px;
+  height: 14px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 2px dashed var(--cds-border-strong-01);
+  display: inline-block;
+}
+
+.stepLabel {
+  grid-column: 2;
+}
+
+.stepDescription {
+  grid-column: 2;
+  color: var(--cds-text-secondary);
+}
+
+.banner {
+  background: var(--cds-layer-01);
+  padding: var(--cds-spacing-05);
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr 1fr 1.9fr 1.3fr 1.6fr;
+  gap: var(--cds-spacing-05);
+  margin-bottom: var(--cds-spacing-05);
+  border-left: 3px solid var(--cds-border-strong-01);
+}
+
+.bannerLabel {
+  margin-bottom: var(--cds-spacing-02);
+}
+
+.bannerValue {
+  margin: 0;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.bannerValueMono {
+  composes: bannerValue;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.successNote {
+  display: flex;
+  gap: var(--cds-spacing-04);
+  align-items: flex-start;
+  padding: var(--cds-spacing-04) var(--cds-spacing-05);
+  border-left: 3px solid var(--cds-support-success);
+  background: var(--cds-notification-background-success);
+  margin-bottom: var(--cds-spacing-05);
+}
+
+.successIcon {
+  color: var(--cds-support-success);
+}
+
+.errorNote {
+  display: flex;
+  gap: var(--cds-spacing-04);
+  align-items: flex-start;
+  padding: var(--cds-spacing-04) var(--cds-spacing-05);
+  border-left: 3px solid var(--cds-support-error);
+  background: var(--cds-notification-background-error);
+}
+
+.errorIcon {
+  color: var(--cds-support-error);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  gap: var(--cds-spacing-05);
+  margin-top: var(--cds-spacing-05);
+}
+
+.column8 {
+  grid-column: span 8;
+  background: #fff;
+  border: 1px solid var(--cds-border-subtle-00);
+  padding: var(--cds-spacing-05);
+}
+
+.column16 {
+  grid-column: span 16;
+  background: #fff;
+  border: 1px solid var(--cds-border-subtle-00);
+  padding: var(--cds-spacing-05);
+}
+
+.sectionHeading {
+  margin-bottom: var(--cds-spacing-05);
+}
+
+.keyValueList {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  row-gap: var(--cds-spacing-04);
+  margin: 0;
+}
+
+.keyValueList dt {
+  color: var(--cds-text-secondary);
+}
+
+.keyValueList dd {
+  margin: 0;
+}
+
+.monoValue {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.auditList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.auditItem {
+  padding: var(--cds-spacing-03) 0 var(--cds-spacing-03) var(--cds-spacing-05);
+  border-left: 2px solid var(--cds-border-subtle-01);
+}
+
+.auditLabel {
+  color: var(--cds-text-secondary);
+}
+
+.footer {
+  margin-top: var(--cds-spacing-07);
+  color: var(--cds-text-helper);
+}
+
+.loadingMessage,
+.errorMessage {
+  padding: var(--cds-spacing-05);
+}
+
+.errorLink {
+  margin-left: var(--cds-spacing-05);
+}

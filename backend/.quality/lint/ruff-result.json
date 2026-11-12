@@ -1,0 +1,78 @@
+{
+  "tool": "ruff",
+  "status": "issues_found",
+  "errors": 3,
+  "warnings": 0,
+  "total_findings": 3,
+  "inline_findings": 3,
+  "remaining_findings": 0,
+  "files": [
+    {
+      "path": "/repos/deutsche-telekom-repo/backend/tests/test_pipeline_migration_parity.py",
+      "findings": [
+        {
+          "msg": "`subprocess.run` without explicit `check` argument",
+          "line": 65,
+          "column": 12,
+          "code": "PLW1510"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/backend/tests/test_pipeline_seed_runs.py",
+      "findings": [
+        {
+          "msg": "`subprocess.run` without explicit `check` argument",
+          "line": 125,
+          "column": 12,
+          "code": "PLW1510"
+        },
+        {
+          "msg": "Unpacked variable `output` is never used",
+          "line": 141,
+          "column": 11,
+          "code": "RUF059"
+        }
+      ]
+    }
+  ],
+  "report_path": "/repos/deutsche-telekom-repo/backend/.quality/lint/ruff-result.json",
+  "fix_applied": true,
+  "command": [
+    "/usr/local/bin/ruff",
+    "check",
+    "/app/data/projects/0a3ab7b005be/output/8dc1b747efae/repos/deutsche-telekom-repo/backend",
+    "--output-format",
+    "json",
+    "--fix"
+  ],
+  "exit_code": 1,
+  "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"PLW1510\",\n    \"end_location\": {\n      \"column\": 26,\n      \"row\": 65\n    },\n    \"filename\": \"/app/data/projects/0a3ab7b005be/output/8dc1b747efae/repos/deutsche-telekom-repo/backend/tests/test_pipeline_migration_parity.py\",\n    \"fix\": {\n      \"applicability\": \"displayonly\",\n      \"edits\": [\n        {\n          \"content\": \"check=False, \",\n          \"end_location\": {\n            \"column\": 9,\n            \"row\": 67\n          },\n          \"location\": {\n            \"column\": 9,\n            \"row\": 67\n          }\n        }\n      ],\n      \"message\": \"Add explicit `check=False`\"\n    },\n    \"location\": {\n      \"column\": 12,\n      \"row\": 65\n    },\n    \"message\": \"`subprocess.run` without explicit `check` argument\",\n    \"name\": \"subprocess-run-without-check\",\n    \"noqa_row\": 65,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/subprocess-run-without-check\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"PLW1510\",\n    \"end_location\": {\n      \"column\": 26,\n      \"row\": 125\n    },\n    \"filename\": \"/app/data/projects/0a3ab7b005be/output/8dc1b747efae/repos/deutsche-telekom-repo/backend/tests/test_pipeline_seed_runs.py\",\n    \"fix\": {\n      \"applicability\": \"displayonly\",\n      \"edits\": [\n        {\n          \"content\": \"check=False, \",\n          \"end_location\": {\n            \"column\": 9,\n            \"row\": 127\n          },\n          \"location\": {\n            \"column\": 9,\n            \"row\": 127\n          }\n        }\n      ],\n      \"message\": \"Add explicit `check=False`\"\n    },\n    \"location\": {\n      \"column\": 12,\n      \"row\": 125\n    },\n    \"message\": \"`subprocess.run` without explicit `check` argument\",\n    \"name\": \"subprocess-run-without-check\",\n    \"noqa_row\": 125,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/subprocess-run-without-check\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"RUF059\",\n    \"end_location\": {\n      \"column\": 17,\n      \"row\": 141\n    },\n    \"filename\": \"/app/data/projects/0a3ab7b005be/output/8dc1b747efae/repos/deutsche-telekom-repo/backend/tests/test_pipeline_seed_runs.py\",\n    \"fix\": {\n      \"applicability\": \"unsafe\",\n      \"edits\": [\n        {\n          \"content\": \"_output\",\n          \"end_location\": {\n            \"column\": 17,\n            \"row\": 141\n          },\n          \"location\": {\n            \"column\": 11,\n            \"row\": 141\n          }\n        }\n      ],\n      \"message\": \"Prefix it with an underscore or any other dummy variable pattern\"\n    },\n    \"location\": {\n      \"column\": 11,\n      \"row\": 141\n    },\n    \"message\": \"Unpacked variable `output` is never used\",\n    \"name\": \"unused-unpacked-variable\",\n    \"noqa_row\": 141,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unused-unpacked-variable\"\n  }\n]",
+  "stderr": "",
+  "all_findings": [
+    {
+      "path": "/repos/deutsche-telekom-repo/backend/tests/test_pipeline_migration_parity.py",
+      "line": 65,
+      "column": 12,
+      "code": "PLW1510",
+      "msg": "`subprocess.run` without explicit `check` argument",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/backend/tests/test_pipeline_seed_runs.py",
+      "line": 125,
+      "column": 12,
+      "code": "PLW1510",
+      "msg": "`subprocess.run` without explicit `check` argument",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/backend/tests/test_pipeline_seed_runs.py",
+      "line": 141,
+      "column": 11,
+      "code": "RUF059",
+      "msg": "Unpacked variable `output` is never used",
+      "severity": "error"
+    }
+  ]
+}

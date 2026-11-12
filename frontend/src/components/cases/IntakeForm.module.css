@@ -1,0 +1,33 @@
+.container {
+  background: var(--cds-layer-01);
+  border: 1px solid var(--cds-border-subtle-00);
+  padding: var(--cds-spacing-05);
+}
+
+.heading {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  margin: 0 0 var(--cds-spacing-05) 0;
+}
+
+.fieldWrapper {
+  margin-bottom: var(--cds-spacing-05);
+}
+
+.helperText {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: var(--cds-text-secondary);
+  margin-top: var(--cds-spacing-02);
+}
+
+.buttonGroup {
+  display: flex;
+  gap: var(--cds-spacing-05);
+  align-items: center;
+}
+
+.notificationWrapper {
+  margin-top: var(--cds-spacing-05);
+}
