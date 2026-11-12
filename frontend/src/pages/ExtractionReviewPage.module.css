@@ -1,0 +1,63 @@
+.container {
+  padding: 16px 32px 48px;
+}
+
+.breadcrumb {
+  color: #525252;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #0f62fe;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+}
+
+.label {
+  font-size: 12px;
+  color: #525252;
+  margin-bottom: 8px;
+}
+
+.helperText {
+  font-size: 12px;
+  color: #525252;
+  margin-top: 8px;
+}
+
+.sourceDoc {
+  background: #fff;
+  border: 1px solid #c6c6c6;
+  padding: 12px;
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+.sourceDoc mark {
+  background: #d0e2ff;
+  color: #161616;
+}
+
+.gateSection {
+  background: #fdf6dd;
+  border: 1px solid #f1c21b;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.formField {
+  margin-bottom: 16px;
+}
+
+.buttonRow {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}

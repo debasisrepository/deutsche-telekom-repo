@@ -1,0 +1,7 @@
+.container {
+  padding: var(--cds-spacing-05);
+}
+
+.heading {
+  margin-bottom: var(--cds-spacing-05);
+}

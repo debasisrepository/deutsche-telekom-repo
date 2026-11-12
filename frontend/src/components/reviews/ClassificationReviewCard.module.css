@@ -1,0 +1,56 @@
+.card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+}
+
+.verdictRow {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.confidenceSection {
+  margin-top: 16px;
+}
+
+.label {
+  font-size: 12px;
+  color: #525252;
+  margin-bottom: 8px;
+}
+
+.confidenceValue {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.sectionHeading {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0 8px;
+}
+
+.rationaleTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rationaleTable th {
+  background: #e0e0e0;
+  text-align: left;
+  padding: 10px 16px;
+  font-weight: 600;
+}
+
+.rationaleTable td {
+  background: #f4f4f4;
+  padding: 10px 16px;
+  border-top: 1px solid #fff;
+  vertical-align: top;
+}
+
+.reasoning {
+  margin-top: 16px;
+}

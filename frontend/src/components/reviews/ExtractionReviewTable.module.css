@@ -1,0 +1,33 @@
+.tableWrapper {
+  margin-top: 16px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background: #e0e0e0;
+  text-align: left;
+  padding: 10px 16px;
+  font-weight: 600;
+}
+
+.table td {
+  background: #f4f4f4;
+  padding: 10px 16px;
+  border-top: 1px solid #fff;
+  vertical-align: top;
+}
+
+.editRow td {
+  background: #fff !important;
+  outline: 2px solid #0f62fe;
+  outline-offset: -2px;
+}
+
+.wasValue {
+  color: #525252;
+  font-size: 12px;
+}

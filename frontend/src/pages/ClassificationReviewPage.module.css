@@ -1,0 +1,103 @@
+.container {
+  padding: 16px 32px 48px;
+}
+
+.breadcrumb {
+  color: #525252;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #0f62fe;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+}
+
+.label {
+  font-size: 12px;
+  color: #525252;
+  margin-bottom: 8px;
+}
+
+.helperText {
+  font-size: 12px;
+  color: #525252;
+}
+
+.fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.formField {
+  margin-bottom: 16px;
+}
+
+.buttonRow {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.sectionHeading {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0 8px;
+}
+
+.decisionTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.decisionTable th {
+  background: #e0e0e0;
+  text-align: left;
+  padding: 10px 16px;
+  font-weight: 600;
+}
+
+.decisionTable td {
+  background: #f4f4f4;
+  padding: 10px 16px;
+  border-top: 1px solid #fff;
+}
+
+.mutedText {
+  color: #525252;
+}
+
+.routingRow {
+  display: flex;
+  gap: 16px;
+  align-items: stretch;
+}
+
+.routingTile {
+  flex: 1;
+  border-top: 3px solid #0f62fe;
+  background: #f4f4f4;
+  padding: 16px;
+}
+
+.routingTile:last-child {
+  border-top-color: #8d8d8d;
+}
+
+.routingTile h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.routingTile p {
+  margin: 0;
+}

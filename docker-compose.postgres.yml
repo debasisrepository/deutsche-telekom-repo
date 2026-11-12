@@ -1,0 +1,23 @@
+services:
+  database:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: procurement
+      POSTGRES_PASSWORD: procurement
+      POSTGRES_DB: procurement
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  backend:
+    build:
+      args:
+        PIP_TARGET: ".[postgres]"
+    environment:
+      DATABASE_URL: postgresql+psycopg://procurement:procurement@database:5432/procurement
+    depends_on:
+      - database
+
+volumes:
+  postgres-data:

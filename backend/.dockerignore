@@ -1,0 +1,43 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+*.db
+*.db-journal
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Tests
+tests/
+.coverage
+htmlcov/
+
+# Documentation
+docs/
+*.md
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Handoff
+../.handoff/

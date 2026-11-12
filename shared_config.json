@@ -1,0 +1,12 @@
+{
+  "api_base_path": "/v1",
+  "auth": {
+    "token_expiry_hours": 24,
+    "password_min_length": 8,
+    "require_special_chars": true
+  },
+  "pagination": {
+    "default_page_size": 25,
+    "max_page_size": 100
+  }
+}
