@@ -1,0 +1,128 @@
+@use '@carbon/styles/scss/spacing';
+
+.page {
+  padding: spacing.$spacing-06 spacing.$spacing-07 spacing.$spacing-09;
+}
+
+.breadcrumb {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.32px;
+  color: var(--cds-text-secondary);
+  margin: 0 0 spacing.$spacing-03;
+}
+
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: spacing.$spacing-07;
+  margin-bottom: spacing.$spacing-05;
+}
+
+.title {
+  font: 400 28px/36px 'IBM Plex Sans', Arial, sans-serif;
+  margin: 0 0 spacing.$spacing-03;
+  letter-spacing: 0;
+}
+
+.lead {
+  max-width: 760px;
+  color: var(--cds-text-secondary);
+  margin: 0 0 spacing.$spacing-05;
+}
+
+.tags {
+  display: flex;
+  gap: spacing.$spacing-03;
+  flex-wrap: wrap;
+}
+
+.progressIndicator {
+  margin-bottom: spacing.$spacing-06;
+}
+
+.section {
+  margin-bottom: spacing.$spacing-07;
+}
+
+.sectionTitle {
+  font: 400 20px/28px 'IBM Plex Sans', Arial, sans-serif;
+  margin: 0 0 spacing.$spacing-05;
+  letter-spacing: 0;
+}
+
+.gridRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: spacing.$spacing-05;
+  margin-bottom: spacing.$spacing-06;
+}
+
+.gridRowSpaced {
+  margin-top: spacing.$spacing-05;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid var(--cds-border-subtle-01);
+  padding: spacing.$spacing-05;
+}
+
+.heading {
+  font: 600 16px/24px 'IBM Plex Sans', Arial, sans-serif;
+  margin: 0 0 spacing.$spacing-05;
+  letter-spacing: 0;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: spacing.$spacing-03;
+  margin-bottom: spacing.$spacing-03;
+}
+
+.checkIcon {
+  color: var(--cds-support-success);
+  flex: none;
+}
+
+.errorIcon {
+  color: var(--cds-support-error);
+  flex: none;
+}
+
+.notification {
+  margin-top: spacing.$spacing-05;
+}
+
+.annotation {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--cds-text-helper);
+  margin: 0 0 spacing.$spacing-03;
+}
+
+.mono {
+  font-family: 'IBM Plex Mono', Menlo, Consolas, monospace;
+  font-size: 13px;
+}
+
+.actions {
+  display: flex;
+  gap: spacing.$spacing-05;
+  align-items: center;
+  margin-bottom: spacing.$spacing-05;
+}
+
+.helpText {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--cds-text-helper);
+  margin: 0;
+}
+
+.error {
+  padding: spacing.$spacing-05;
+  color: var(--cds-support-error);
+}

@@ -1,0 +1,8 @@
+@use '@carbon/react/scss/type' as *;
+
+.exemplar-table {
+  &__id {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+  }
+}

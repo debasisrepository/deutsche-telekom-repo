@@ -1,0 +1,17 @@
+@use '@carbon/styles/scss/spacing' as spacing;
+
+.citation-badge-container {
+  margin-bottom: spacing.$spacing-05;
+}
+
+.citation-badge-display {
+  display: flex;
+  align-items: center;
+  gap: spacing.$spacing-03;
+  margin-top: spacing.$spacing-02;
+}
+
+.citation-badge-text {
+  font-size: 12px;
+  line-height: 16px;
+}

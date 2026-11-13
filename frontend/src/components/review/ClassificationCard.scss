@@ -1,0 +1,91 @@
+@use '@carbon/react/scss/spacing' as *;
+@use '@carbon/react/scss/theme' as *;
+@use '@carbon/react/scss/type' as *;
+
+.classification-card {
+  background: $background;
+  border: 1px solid $border-subtle-01;
+  padding: $spacing-05;
+
+  &__label {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.32px;
+    color: $text-secondary;
+    margin-bottom: $spacing-02;
+  }
+
+  &__verdict {
+    display: flex;
+    align-items: center;
+    gap: $spacing-05;
+    margin-bottom: $spacing-05;
+  }
+
+  &__verdict-text {
+    @include type-style('productive-heading-04');
+  }
+
+  &__confidence-label {
+    margin-top: $spacing-05;
+  }
+
+  &__confidence-value {
+    @include type-style('productive-heading-06');
+    margin-bottom: $spacing-03;
+  }
+
+  &__meter {
+    position: relative;
+    height: 16px;
+    background: linear-gradient(90deg, #ffd7d9 0 60%, #a7f0ba 60% 100%);
+    margin: $spacing-03 0 $spacing-02;
+    border-radius: 2px;
+  }
+
+  &__meter-fill {
+    height: 100%;
+    background: transparent;
+  }
+
+  &__meter-threshold {
+    position: absolute;
+    top: -4px;
+    width: 2px;
+    height: 24px;
+    background: $text-primary;
+
+    &[data-position="80"] {
+      left: 80%;
+    }
+  }
+
+  &__help {
+    font-size: 12px;
+    line-height: 16px;
+    color: $text-helper;
+    margin-bottom: $spacing-05;
+  }
+
+  &__heading {
+    @include type-style('productive-heading-02');
+    margin: $spacing-05 0 $spacing-03;
+    padding-top: $spacing-05;
+    border-top: 1px solid $border-subtle-01;
+  }
+
+  &__rationale {
+    color: $text-primary;
+    line-height: 20px;
+
+    ul {
+      margin: 0 0 0 $spacing-05;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: $spacing-02;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: sqlite:////data/app.db
+      SECRET_KEY: dev-secret-key-change-in-production
+      DEBUG: "true"
+      CORS_ORIGINS: http://localhost
+      RATE_LIMIT_ENABLED: "true"
+      ENVIRONMENT: development
+    volumes:
+      - data:/data
+    ports:
+      - "9000:9000"
+    x-preview-port: 9000
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+    x-preview-port: 80
+
+volumes:
+  data:

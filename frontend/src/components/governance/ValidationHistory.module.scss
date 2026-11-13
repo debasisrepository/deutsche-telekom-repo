@@ -1,0 +1,27 @@
+@use '@carbon/styles/scss/spacing';
+
+.card {
+  background: #fff;
+  border: 1px solid var(--cds-border-subtle-01);
+  padding: spacing.$spacing-05;
+}
+
+.heading {
+  font: 600 16px/24px 'IBM Plex Sans', Arial, sans-serif;
+  margin: 0 0 spacing.$spacing-03;
+  letter-spacing: 0;
+}
+
+.smallTable {
+  td {
+    height: 40px;
+  }
+}
+
+.annotation {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--cds-text-helper);
+  margin-top: spacing.$spacing-05;
+  margin-bottom: 0;
+}

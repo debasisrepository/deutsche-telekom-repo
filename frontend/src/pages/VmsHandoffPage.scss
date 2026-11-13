@@ -1,0 +1,116 @@
+@use '@carbon/react/scss/spacing' as *;
+@use '@carbon/react/scss/theme' as *;
+@use '@carbon/react/scss/type' as *;
+
+.vms-handoff-page {
+  padding: $spacing-06 $spacing-07 $spacing-09;
+
+  &__breadcrumb {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.32px;
+    color: $text-secondary;
+    margin-bottom: $spacing-03;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: $spacing-07;
+    margin-bottom: $spacing-05;
+  }
+
+  &__title {
+    @include type-style('productive-heading-05');
+    margin: 0 0 $spacing-03;
+  }
+
+  &__lead {
+    max-width: 760px;
+    color: $text-secondary;
+    margin: 0 0 $spacing-05;
+  }
+
+  &__tags {
+    display: flex;
+    gap: $spacing-03;
+    flex-wrap: wrap;
+  }
+
+  &__progress {
+    margin-bottom: $spacing-06;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-05;
+    margin-bottom: $spacing-06;
+  }
+
+  &__section-title {
+    @include type-style('productive-heading-03');
+    margin: 0 0 $spacing-05;
+  }
+
+  &__subsection-title {
+    @include type-style('productive-heading-02');
+    margin: $spacing-06 0 $spacing-03;
+  }
+
+  &__card {
+    background: $background;
+    border: 1px solid $border-subtle-01;
+    padding: $spacing-05;
+  }
+
+  &__dl {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: $spacing-03 $spacing-05;
+    margin: 0 0 $spacing-06;
+
+    dt {
+      color: $text-secondary;
+    }
+
+    dd {
+      margin: 0;
+    }
+  }
+
+  &__mono {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+  }
+
+  &__label {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.32px;
+    color: $text-secondary;
+    display: block;
+    margin-bottom: $spacing-03;
+  }
+
+  &__blocked {
+    display: flex;
+    gap: $spacing-02;
+    flex-wrap: wrap;
+    margin-bottom: $spacing-03;
+  }
+
+  &__help {
+    font-size: 12px;
+    line-height: 16px;
+    color: $text-helper;
+    margin-bottom: $spacing-05;
+  }
+
+  &__actions {
+    display: flex;
+    gap: $spacing-05;
+    align-items: center;
+  }
+}

@@ -1,0 +1,2138 @@
+{
+  "tool": "yamllint",
+  "status": "issues_found",
+  "errors": 47,
+  "warnings": 187,
+  "total_findings": 234,
+  "inline_findings": 30,
+  "remaining_findings": 204,
+  "files": [
+    {
+      "path": "/repos/deutsche-telekom-repo/docker-compose.postgres.yml",
+      "findings": [
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 1,
+          "column": 1,
+          "severity": "warning"
+        },
+        {
+          "msg": "line too long (99 > 80 characters) (line-length)",
+          "line": 27,
+          "column": 81
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/docker-compose.yml",
+      "findings": [
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 1,
+          "column": 1,
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/colors/telemetry.yml",
+      "findings": [
+        {
+          "msg": "line too long (105 > 80 characters) (line-length)",
+          "line": 1,
+          "column": 81
+        },
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 2,
+          "column": 1,
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/feature-flags/telemetry.yml",
+      "findings": [
+        {
+          "msg": "line too long (105 > 80 characters) (line-length)",
+          "line": 1,
+          "column": 81
+        },
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 2,
+          "column": 1,
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/grid/telemetry.yml",
+      "findings": [
+        {
+          "msg": "line too long (105 > 80 characters) (line-length)",
+          "line": 1,
+          "column": 81
+        },
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 2,
+          "column": 1,
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/icon-helpers/telemetry.yml",
+      "findings": [
+        {
+          "msg": "line too long (105 > 80 characters) (line-length)",
+          "line": 1,
+          "column": 81
+        },
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 2,
+          "column": 1,
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/icons-react/telemetry.yml",
+      "findings": [
+        {
+          "msg": "line too long (105 > 80 characters) (line-length)",
+          "line": 1,
+          "column": 81
+        },
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 2,
+          "column": 1,
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/layout/telemetry.yml",
+      "findings": [
+        {
+          "msg": "line too long (105 > 80 characters) (line-length)",
+          "line": 1,
+          "column": 81
+        },
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 2,
+          "column": 1,
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/motion/telemetry.yml",
+      "findings": [
+        {
+          "msg": "line too long (105 > 80 characters) (line-length)",
+          "line": 1,
+          "column": 81
+        },
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 2,
+          "column": 1,
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/react/telemetry.yml",
+      "findings": [
+        {
+          "msg": "line too long (105 > 80 characters) (line-length)",
+          "line": 1,
+          "column": 81
+        },
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 3,
+          "column": 1,
+          "severity": "warning"
+        },
+        {
+          "msg": "truthy value should be one of [false, true] (truthy)",
+          "line": 1174,
+          "column": 11,
+          "severity": "warning"
+        },
+        {
+          "msg": "truthy value should be one of [false, true] (truthy)",
+          "line": 1416,
+          "column": 11,
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/styles/telemetry.yml",
+      "findings": [
+        {
+          "msg": "line too long (105 > 80 characters) (line-length)",
+          "line": 1,
+          "column": 81
+        },
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 2,
+          "column": 1,
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/themes/src/v10/metadata.yml",
+      "findings": [
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 1,
+          "column": 1,
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/themes/telemetry.yml",
+      "findings": [
+        {
+          "msg": "line too long (105 > 80 characters) (line-length)",
+          "line": 1,
+          "column": 81
+        },
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 2,
+          "column": 1,
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/type/telemetry.yml",
+      "findings": [
+        {
+          "msg": "line too long (105 > 80 characters) (line-length)",
+          "line": 1,
+          "column": 81
+        },
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 2,
+          "column": 1,
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/utilities/telemetry.yml",
+      "findings": [
+        {
+          "msg": "line too long (105 > 80 characters) (line-length)",
+          "line": 1,
+          "column": 81
+        },
+        {
+          "msg": "missing document start \"---\" (document-start)",
+          "line": 2,
+          "column": 1,
+          "severity": "warning"
+        }
+      ]
+    }
+  ],
+  "report_path": "/repos/deutsche-telekom-repo/.quality/lint/yamllint-result.json",
+  "truncated": true,
+  "command": [
+    "/usr/local/bin/yamllint",
+    "-f",
+    "parsable",
+    "/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo"
+  ],
+  "exit_code": 1,
+  "stdout": "/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/docker-compose.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/docker-compose.postgres.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/docker-compose.postgres.yml:27:81: [error] line too long (99 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/icon-helpers/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/icon-helpers/telemetry.yml:2:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/feature-flags/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/feature-flags/telemetry.yml:2:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/layout/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/layout/telemetry.yml:2:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/motion/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/motion/telemetry.yml:2:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/utilities/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/utilities/telemetry.yml:2:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/colors/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/colors/telemetry.yml:2:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/grid/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/grid/telemetry.yml:2:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/themes/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/themes/telemetry.yml:2:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/themes/src/v10/metadata.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/type/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/type/telemetry.yml:2:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/icons-react/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/icons-react/telemetry.yml:2:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/react/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/react/telemetry.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/react/telemetry.yml:1174:11: [warning] truthy value should be one of [false, true] (truthy)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/react/telemetry.yml:1416:11: [warning] truthy value should be one of [false, true] (truthy)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/styles/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/styles/telemetry.yml:2:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex/telemetry.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex/telemetry.yml:5:81: [error] line too long (92 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-mono/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-mono/telemetry.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans/telemetry.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-arabic/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-arabic/telemetry.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-devanagari/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-devanagari/telemetry.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-hebrew/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-hebrew/telemetry.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-thai/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-thai/telemetry.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-thai-looped/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-thai-looped/telemetry.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-serif/telemetry.yml:1:81: [error] line too long (105 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-serif/telemetry.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@eslint/eslintrc/node_modules/balanced-match/.github/FUNDING.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/@eslint/config-array/node_modules/balanced-match/.github/FUNDING.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/eslint/node_modules/balanced-match/.github/FUNDING.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/playwright/lib/agents/copilot-setup-steps.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/playwright/lib/agents/copilot-setup-steps.yml:3:1: [warning] truthy value should be one of [false, true] (truthy)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/playwright/lib/agents/copilot-setup-steps.yml:20:5: [error] wrong indentation: expected 6 but found 4 (indentation)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/ajv/scripts/.eslintrc.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/json-stable-stringify-without-jsonify/.travis.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/json-schema-traverse/.eslintrc.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/json-schema-traverse/.travis.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/json-schema-traverse/spec/.eslintrc.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/fast-json-stable-stringify/.eslintrc.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/fast-json-stable-stringify/.travis.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/fast-json-stable-stringify/.github/FUNDING.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/json-buffer/.travis.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/deep-is/.travis.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/reusify/.github/dependabot.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/reusify/.github/dependabot.yml:3:1: [error] wrong indentation: expected at least 1 (indentation)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/reusify/.github/workflows/ci.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/reusify/.github/workflows/ci.yml:3:1: [warning] truthy value should be one of [false, true] (truthy)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/reusify/.github/workflows/ci.yml:11:81: [error] line too long (89 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml:3:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml:4:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml:5:18: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml:6:8: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml:8:19: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml:8:81: [error] line too long (91 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml:9:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml:10:12: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml:11:10: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml:12:9: [warning] too few spaces before comment: expected 2 (comments)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/why-is-node-running/.github/FUNDING.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/iconv-lite/.github/dependabot.yml:4:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/siginfo/.travis.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/siginfo/.travis.yml:5:1: [error] wrong indentation: expected 2 but found 0 (indentation)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/siginfo/.travis.yml:9:81: [error] line too long (696 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/siginfo/.travis.yml:11:81: [error] line too long (696 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/siginfo/.travis.yml:12:3: [warning] truthy value should be one of [false, true] (truthy)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/stackback/.travis.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/frontend/node_modules/concat-map/.travis.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/.github/workflows/ci.yml:1:1: [warning] missing document start \"---\" (document-start)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/.github/workflows/ci.yml:3:1: [warning] truthy value should be one of [false, true] (truthy)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/.github/workflows/ci.yml:13:1: [error] trailing spaces (trailing-spaces)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/.github/workflows/ci.yml:58:81: [error] line too long (98 > 80 characters) (line-length)\n/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo/.github/workflows/ci.yml:65:81: [error] line too long (98 > 80 characters) (line-length)\n",
+  "stderr": "",
+  "all_findings": [
+    {
+      "path": "/repos/deutsche-telekom-repo/docker-compose.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/docker-compose.postgres.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/docker-compose.postgres.yml",
+      "line": 27,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (99 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/icon-helpers/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/icon-helpers/telemetry.yml",
+      "line": 2,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/feature-flags/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/feature-flags/telemetry.yml",
+      "line": 2,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/layout/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/layout/telemetry.yml",
+      "line": 2,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/motion/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/motion/telemetry.yml",
+      "line": 2,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/utilities/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/utilities/telemetry.yml",
+      "line": 2,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/colors/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/colors/telemetry.yml",
+      "line": 2,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/grid/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/grid/telemetry.yml",
+      "line": 2,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/themes/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/themes/telemetry.yml",
+      "line": 2,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/themes/src/v10/metadata.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/type/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/type/telemetry.yml",
+      "line": 2,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/icons-react/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/icons-react/telemetry.yml",
+      "line": 2,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/react/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/react/telemetry.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/react/telemetry.yml",
+      "line": 1174,
+      "column": 11,
+      "code": null,
+      "msg": "truthy value should be one of [false, true] (truthy)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/react/telemetry.yml",
+      "line": 1416,
+      "column": 11,
+      "code": null,
+      "msg": "truthy value should be one of [false, true] (truthy)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/styles/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/styles/telemetry.yml",
+      "line": 2,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex/telemetry.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex/telemetry.yml",
+      "line": 5,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (92 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-mono/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-mono/telemetry.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans/telemetry.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-arabic/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-arabic/telemetry.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-devanagari/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-devanagari/telemetry.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-hebrew/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-hebrew/telemetry.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-thai/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-thai/telemetry.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-thai-looped/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-sans-thai-looped/telemetry.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-serif/telemetry.yml",
+      "line": 1,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (105 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@ibm/plex-serif/telemetry.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@eslint/eslintrc/node_modules/balanced-match/.github/FUNDING.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@eslint/config-array/node_modules/balanced-match/.github/FUNDING.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/eslint/node_modules/balanced-match/.github/FUNDING.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/playwright/lib/agents/copilot-setup-steps.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/playwright/lib/agents/copilot-setup-steps.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "truthy value should be one of [false, true] (truthy)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/playwright/lib/agents/copilot-setup-steps.yml",
+      "line": 20,
+      "column": 5,
+      "code": null,
+      "msg": "wrong indentation: expected 6 but found 4 (indentation)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/ajv/scripts/.eslintrc.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/json-stable-stringify-without-jsonify/.travis.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/json-schema-traverse/.eslintrc.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/json-schema-traverse/.travis.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/json-schema-traverse/spec/.eslintrc.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/fast-json-stable-stringify/.eslintrc.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/fast-json-stable-stringify/.travis.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/fast-json-stable-stringify/.github/FUNDING.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/hasown/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-errors/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-intrinsic/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-tostringtag/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/call-bind-apply-helpers/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-define-property/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/es-object-atoms/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/get-proto/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/function-bind/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/gopd/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/has-symbols/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/math-intrinsics/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/dunder-proto/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/json-buffer/.travis.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/deep-is/.travis.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/resolve/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/reusify/.github/dependabot.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/reusify/.github/dependabot.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "wrong indentation: expected at least 1 (indentation)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/reusify/.github/workflows/ci.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/reusify/.github/workflows/ci.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "truthy value should be one of [false, true] (truthy)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/reusify/.github/workflows/ci.yml",
+      "line": 11,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (89 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml",
+      "line": 4,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml",
+      "line": 5,
+      "column": 18,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml",
+      "line": 6,
+      "column": 8,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml",
+      "line": 8,
+      "column": 19,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml",
+      "line": 8,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (91 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml",
+      "line": 9,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml",
+      "line": 10,
+      "column": 12,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml",
+      "line": 11,
+      "column": 10,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/supports-preserve-symlinks-flag/.github/FUNDING.yml",
+      "line": 12,
+      "column": 9,
+      "code": null,
+      "msg": "too few spaces before comment: expected 2 (comments)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/why-is-node-running/.github/FUNDING.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/iconv-lite/.github/dependabot.yml",
+      "line": 4,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/siginfo/.travis.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/siginfo/.travis.yml",
+      "line": 5,
+      "column": 1,
+      "code": null,
+      "msg": "wrong indentation: expected 2 but found 0 (indentation)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/siginfo/.travis.yml",
+      "line": 9,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (696 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/siginfo/.travis.yml",
+      "line": 11,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (696 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/siginfo/.travis.yml",
+      "line": 12,
+      "column": 3,
+      "code": null,
+      "msg": "truthy value should be one of [false, true] (truthy)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/stackback/.travis.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/node_modules/concat-map/.travis.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/.github/workflows/ci.yml",
+      "line": 1,
+      "column": 1,
+      "code": null,
+      "msg": "missing document start \"---\" (document-start)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/.github/workflows/ci.yml",
+      "line": 3,
+      "column": 1,
+      "code": null,
+      "msg": "truthy value should be one of [false, true] (truthy)",
+      "severity": "warning"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/.github/workflows/ci.yml",
+      "line": 13,
+      "column": 1,
+      "code": null,
+      "msg": "trailing spaces (trailing-spaces)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/.github/workflows/ci.yml",
+      "line": 58,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (98 > 80 characters) (line-length)",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/.github/workflows/ci.yml",
+      "line": 65,
+      "column": 81,
+      "code": null,
+      "msg": "line too long (98 > 80 characters) (line-length)",
+      "severity": "error"
+    }
+  ]
+}

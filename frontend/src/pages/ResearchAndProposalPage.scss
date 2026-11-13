@@ -1,0 +1,75 @@
+@use '@carbon/styles/scss/spacing' as spacing;
+@use '@carbon/styles/scss/theme' as theme;
+
+.proposal-casebar {
+  display: flex;
+  gap: spacing.$spacing-07;
+  border: 1px solid theme.$border-subtle-01;
+  padding: spacing.$spacing-04 spacing.$spacing-05;
+  margin-bottom: spacing.$spacing-06;
+  flex-wrap: wrap;
+}
+
+.research-actions {
+  display: flex;
+  gap: spacing.$spacing-05;
+  align-items: center;
+  margin-top: spacing.$spacing-05;
+}
+
+.research-basis-card {
+  background: theme.$layer-01;
+  border: 1px solid theme.$border-subtle-01;
+  padding: spacing.$spacing-05;
+}
+
+.research-basis-dl {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: spacing.$spacing-03 spacing.$spacing-05;
+  margin: spacing.$spacing-05 0;
+}
+
+.research-basis-dl dt {
+  color: theme.$text-secondary;
+}
+
+.research-basis-dl dd {
+  margin: 0;
+}
+
+.proposal-decision {
+  margin-top: spacing.$spacing-05;
+}
+
+.proposal-decision-card {
+  background: theme.$layer-01;
+  border: 1px solid theme.$border-subtle-01;
+  padding: spacing.$spacing-05;
+}
+
+.proposal-decision-field {
+  margin-bottom: spacing.$spacing-05;
+}
+
+.proposal-decision-actions {
+  display: flex;
+  gap: spacing.$spacing-05;
+  align-items: center;
+}
+
+.proposal-gate-rules {
+  background: theme.$layer-01;
+  border: 1px solid theme.$border-subtle-01;
+  padding: spacing.$spacing-05;
+}
+
+.proposal-gate-rules ul {
+  margin: spacing.$spacing-05 0 0 spacing.$spacing-05;
+  padding: 0;
+}
+
+.mono {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+}

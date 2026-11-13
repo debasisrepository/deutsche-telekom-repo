@@ -1,0 +1,134 @@
+@use '@carbon/styles/scss/spacing';
+
+.page {
+  padding: spacing.$spacing-06 spacing.$spacing-07 spacing.$spacing-09;
+}
+
+.breadcrumb {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.32px;
+  color: var(--cds-text-secondary);
+  margin: 0 0 spacing.$spacing-03;
+}
+
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: spacing.$spacing-07;
+  margin-bottom: spacing.$spacing-05;
+}
+
+.title {
+  font: 400 28px/36px 'IBM Plex Sans', Arial, sans-serif;
+  margin: 0 0 spacing.$spacing-03;
+  letter-spacing: 0;
+}
+
+.lead {
+  max-width: 760px;
+  color: var(--cds-text-secondary);
+  margin: 0 0 spacing.$spacing-05;
+}
+
+.tags {
+  display: flex;
+  gap: spacing.$spacing-03;
+  flex-wrap: wrap;
+}
+
+.caseBar {
+  display: flex;
+  gap: spacing.$spacing-07;
+  border: 1px solid var(--cds-border-subtle-01);
+  padding: spacing.$spacing-04 spacing.$spacing-05;
+  margin: 0 0 spacing.$spacing-06;
+}
+
+.label {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.32px;
+  color: var(--cds-text-secondary);
+  display: block;
+  margin-bottom: spacing.$spacing-02;
+}
+
+.mono {
+  font-family: 'IBM Plex Mono', Menlo, Consolas, monospace;
+  font-size: 13px;
+}
+
+.section {
+  margin-bottom: spacing.$spacing-06;
+}
+
+.sectionTitle {
+  font: 400 20px/28px 'IBM Plex Sans', Arial, sans-serif;
+  margin: 0 0 spacing.$spacing-05;
+  letter-spacing: 0;
+}
+
+.gridRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: spacing.$spacing-05;
+  margin-bottom: spacing.$spacing-06;
+}
+
+.gridRow75 {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: spacing.$spacing-05;
+  margin-bottom: spacing.$spacing-06;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--cds-layer-01);
+  height: 48px;
+  padding: 0 spacing.$spacing-05;
+}
+
+.subheading {
+  font: 600 16px/24px 'IBM Plex Sans', Arial, sans-serif;
+  margin: spacing.$spacing-06 0 spacing.$spacing-03;
+  letter-spacing: 0;
+}
+
+.smallTable {
+  td {
+    height: 40px;
+  }
+}
+
+.add {
+  color: #0e6027;
+  font-weight: 600;
+}
+
+.rem {
+  color: #a2191f;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  gap: spacing.$spacing-05;
+  align-items: center;
+  margin-top: spacing.$spacing-06;
+}
+
+.helpText {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--cds-text-helper);
+}
+
+.error {
+  padding: spacing.$spacing-05;
+  color: var(--cds-support-error);
+}

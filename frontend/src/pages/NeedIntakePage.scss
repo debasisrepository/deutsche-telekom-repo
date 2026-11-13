@@ -1,0 +1,51 @@
+@use '@carbon/styles/scss/spacing';
+@use '@carbon/styles/scss/theme';
+
+.page-container {
+  padding: spacing.$spacing-07 spacing.$spacing-09;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: spacing.$spacing-09;
+}
+
+.page-lead {
+  max-width: 760px;
+  color: theme.$text-secondary;
+}
+
+.page-tags {
+  flex-direction: row !important;
+  flex-wrap: wrap;
+}
+
+.intake-stat-tile {
+  background: theme.$layer-01;
+  padding: spacing.$spacing-05;
+}
+
+.intake-stat-big {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+.intake-stat-error {
+  color: theme.$support-error;
+}
+
+.intake-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: theme.$layer-01;
+  height: 48px;
+  padding: 0 spacing.$spacing-05;
+}
+
+.intake-filter-tags {
+  flex-direction: row !important;
+}

@@ -1,0 +1,6 @@
+{
+  "tool": "shfmt",
+  "status": "unavailable",
+  "reason": "shfmt is not installed or not configured",
+  "report_path": "/repos/deutsche-telekom-repo/.quality/lint/shfmt-result.json"
+}

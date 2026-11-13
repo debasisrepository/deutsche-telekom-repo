@@ -1,0 +1,6 @@
+{
+  "tool": "shellcheck",
+  "status": "unavailable",
+  "reason": "shellcheck is not installed or not configured",
+  "report_path": "/repos/deutsche-telekom-repo/.quality/lint/shellcheck-result.json"
+}

@@ -1,0 +1,9 @@
+@use '@carbon/styles/scss/spacing';
+
+.pageHeading {
+  margin-bottom: spacing.$spacing-05;
+}
+
+.pageDescription {
+  margin-bottom: spacing.$spacing-07;
+}
