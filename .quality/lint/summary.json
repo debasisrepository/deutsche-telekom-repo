@@ -1,0 +1,651 @@
+{
+  "status": "failed",
+  "target_path": "/repos/deutsche-telekom-repo",
+  "requested_linters": [
+    "all"
+  ],
+  "applicable_linters": [
+    "ruff",
+    "biome",
+    "djlint",
+    "shellcheck",
+    "shfmt",
+    "yamllint"
+  ],
+  "selected_linters": [
+    "ruff",
+    "biome",
+    "djlint",
+    "shellcheck",
+    "shfmt",
+    "yamllint"
+  ],
+  "message": "All findings, including any findings omitted from the inline response, are available in the report files listed under `report_paths`.",
+  "summary": {
+    "errors": 242,
+    "warnings": 187,
+    "total_findings": 429,
+    "inline_findings": 71,
+    "remaining_findings": 358,
+    "linters_run": 6,
+    "linters_with_issues": 3,
+    "linters_unavailable": 2
+  },
+  "by_tool": {
+    "ruff": {
+      "status": "issues_found",
+      "errors": 184,
+      "warnings": 0,
+      "total_findings": 184,
+      "inline_findings": 30,
+      "remaining_findings": 154,
+      "files": [
+        {
+          "path": "/repos/deutsche-telekom-repo/backend/alembic/env.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 1,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/backend/alembic/versions/001_initial_schema.py",
+          "findings": [
+            {
+              "msg": "Trailing whitespace",
+              "line": 4,
+              "column": 9,
+              "code": "W291"
+            },
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 8,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/backend/alembic/versions/002_add_users_table.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 8,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/backend/alembic/versions/298825281f7d_add_evidence_fields.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 8,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/backend/alembic/versions/7abf3ca0d49d_update_evidence_column_types.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 8,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/backend/alembic/versions/b85316146bea_add_intake_review_fields.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 8,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/backend/app/routers/api/v1/integrations.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "`typing.List` imported but unused",
+              "line": 2,
+              "column": 20,
+              "code": "F401"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 49,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/backend/app/services/vms_handoff_service.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 147,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 162,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/backend/tests/conftest.py",
+          "findings": [
+            {
+              "msg": "Module level import not at top of file",
+              "line": 20,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 21,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 22,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 23,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 26,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 27,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 28,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 29,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 30,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 31,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 32,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 33,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 34,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 35,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 36,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 37,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 38,
+              "column": 1,
+              "code": "E402"
+            }
+          ]
+        }
+      ],
+      "report_path": "/repos/deutsche-telekom-repo/.quality/lint/ruff-result.json",
+      "truncated": true
+    },
+    "biome": {
+      "status": "failed",
+      "errors": 0,
+      "warnings": 0,
+      "total_findings": 0,
+      "inline_findings": 0,
+      "remaining_findings": 0,
+      "files": [],
+      "report_path": "/repos/deutsche-telekom-repo/.quality/lint/biome-result.json",
+      "reason": "npm error npx canceled due to missing packages and no YES option: [\"@biomejs/biome@2.6.7\"]\nnpm error A complete log of this run can be found in: /home/appuser/.npm/_logs/2026-11-13T11_30_00_019Z-debug-0.log"
+    },
+    "djlint": {
+      "status": "issues_found",
+      "errors": 11,
+      "warnings": 0,
+      "total_findings": 11,
+      "inline_findings": 11,
+      "remaining_findings": 0,
+      "files": [
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/index.html",
+          "findings": [
+            {
+              "msg": "Consider adding a meta description. <html lang=\"en\"> <",
+              "line": 2,
+              "column": 0,
+              "code": "H030"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/playwright-report/index.html",
+          "findings": [
+            {
+              "msg": "Found extra blank lines.",
+              "line": 1,
+              "column": 0,
+              "code": "H014"
+            },
+            {
+              "msg": "Html tag should have a non-empty lang attribute. <html style='scrollb",
+              "line": 4,
+              "column": 0,
+              "code": "H005"
+            },
+            {
+              "msg": "Attributes should be double quoted. <html style='scrollb",
+              "line": 4,
+              "column": 0,
+              "code": "H008"
+            },
+            {
+              "msg": "Inline styles should be avoided. <html style=",
+              "line": 4,
+              "column": 0,
+              "code": "H021"
+            },
+            {
+              "msg": "Consider adding a meta description. <html style='scrollb",
+              "line": 4,
+              "column": 0,
+              "code": "H030"
+            },
+            {
+              "msg": "Omit type on scripts and styles. <style type='text/cs",
+              "line": 42,
+              "column": 4,
+              "code": "H024"
+            },
+            {
+              "msg": "Attributes should be double quoted. <div id='root'",
+              "line": 46,
+              "column": 4,
+              "code": "H008"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/graphify-out/graph.html",
+          "findings": [
+            {
+              "msg": "Consider adding a meta description. <html lang=\"en\"> <he",
+              "line": 2,
+              "column": 0,
+              "code": "H030"
+            },
+            {
+              "msg": "Do not use entity references. &middot;",
+              "line": 97,
+              "column": 29,
+              "code": "H023"
+            },
+            {
+              "msg": "Do not use entity references. &middot;",
+              "line": 97,
+              "column": 49,
+              "code": "H023"
+            }
+          ]
+        }
+      ],
+      "report_path": "/repos/deutsche-telekom-repo/.quality/lint/djlint-result.json"
+    },
+    "shellcheck": {
+      "status": "unavailable",
+      "reason": "shellcheck is not installed or not configured",
+      "report_path": "/repos/deutsche-telekom-repo/.quality/lint/shellcheck-result.json"
+    },
+    "shfmt": {
+      "status": "unavailable",
+      "reason": "shfmt is not installed or not configured",
+      "report_path": "/repos/deutsche-telekom-repo/.quality/lint/shfmt-result.json"
+    },
+    "yamllint": {
+      "status": "issues_found",
+      "errors": 47,
+      "warnings": 187,
+      "total_findings": 234,
+      "inline_findings": 30,
+      "remaining_findings": 204,
+      "files": [
+        {
+          "path": "/repos/deutsche-telekom-repo/docker-compose.postgres.yml",
+          "findings": [
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 1,
+              "column": 1,
+              "severity": "warning"
+            },
+            {
+              "msg": "line too long (99 > 80 characters) (line-length)",
+              "line": 27,
+              "column": 81
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/docker-compose.yml",
+          "findings": [
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 1,
+              "column": 1,
+              "severity": "warning"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/colors/telemetry.yml",
+          "findings": [
+            {
+              "msg": "line too long (105 > 80 characters) (line-length)",
+              "line": 1,
+              "column": 81
+            },
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 2,
+              "column": 1,
+              "severity": "warning"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/feature-flags/telemetry.yml",
+          "findings": [
+            {
+              "msg": "line too long (105 > 80 characters) (line-length)",
+              "line": 1,
+              "column": 81
+            },
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 2,
+              "column": 1,
+              "severity": "warning"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/grid/telemetry.yml",
+          "findings": [
+            {
+              "msg": "line too long (105 > 80 characters) (line-length)",
+              "line": 1,
+              "column": 81
+            },
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 2,
+              "column": 1,
+              "severity": "warning"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/icon-helpers/telemetry.yml",
+          "findings": [
+            {
+              "msg": "line too long (105 > 80 characters) (line-length)",
+              "line": 1,
+              "column": 81
+            },
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 2,
+              "column": 1,
+              "severity": "warning"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/icons-react/telemetry.yml",
+          "findings": [
+            {
+              "msg": "line too long (105 > 80 characters) (line-length)",
+              "line": 1,
+              "column": 81
+            },
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 2,
+              "column": 1,
+              "severity": "warning"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/layout/telemetry.yml",
+          "findings": [
+            {
+              "msg": "line too long (105 > 80 characters) (line-length)",
+              "line": 1,
+              "column": 81
+            },
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 2,
+              "column": 1,
+              "severity": "warning"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/motion/telemetry.yml",
+          "findings": [
+            {
+              "msg": "line too long (105 > 80 characters) (line-length)",
+              "line": 1,
+              "column": 81
+            },
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 2,
+              "column": 1,
+              "severity": "warning"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/react/telemetry.yml",
+          "findings": [
+            {
+              "msg": "line too long (105 > 80 characters) (line-length)",
+              "line": 1,
+              "column": 81
+            },
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 3,
+              "column": 1,
+              "severity": "warning"
+            },
+            {
+              "msg": "truthy value should be one of [false, true] (truthy)",
+              "line": 1174,
+              "column": 11,
+              "severity": "warning"
+            },
+            {
+              "msg": "truthy value should be one of [false, true] (truthy)",
+              "line": 1416,
+              "column": 11,
+              "severity": "warning"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/styles/telemetry.yml",
+          "findings": [
+            {
+              "msg": "line too long (105 > 80 characters) (line-length)",
+              "line": 1,
+              "column": 81
+            },
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 2,
+              "column": 1,
+              "severity": "warning"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/themes/src/v10/metadata.yml",
+          "findings": [
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 1,
+              "column": 1,
+              "severity": "warning"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/themes/telemetry.yml",
+          "findings": [
+            {
+              "msg": "line too long (105 > 80 characters) (line-length)",
+              "line": 1,
+              "column": 81
+            },
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 2,
+              "column": 1,
+              "severity": "warning"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/type/telemetry.yml",
+          "findings": [
+            {
+              "msg": "line too long (105 > 80 characters) (line-length)",
+              "line": 1,
+              "column": 81
+            },
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 2,
+              "column": 1,
+              "severity": "warning"
+            }
+          ]
+        },
+        {
+          "path": "/repos/deutsche-telekom-repo/frontend/node_modules/@carbon/utilities/telemetry.yml",
+          "findings": [
+            {
+              "msg": "line too long (105 > 80 characters) (line-length)",
+              "line": 1,
+              "column": 81
+            },
+            {
+              "msg": "missing document start \"---\" (document-start)",
+              "line": 2,
+              "column": 1,
+              "severity": "warning"
+            }
+          ]
+        }
+      ],
+      "report_path": "/repos/deutsche-telekom-repo/.quality/lint/yamllint-result.json",
+      "truncated": true
+    }
+  },
+  "report_dir": "/repos/deutsche-telekom-repo/.quality/lint",
+  "report_paths": {
+    "summary": "/repos/deutsche-telekom-repo/.quality/lint/summary.json",
+    "ruff": "/repos/deutsche-telekom-repo/.quality/lint/ruff-result.json",
+    "biome": "/repos/deutsche-telekom-repo/.quality/lint/biome-result.json",
+    "djlint": "/repos/deutsche-telekom-repo/.quality/lint/djlint-result.json",
+    "shellcheck": "/repos/deutsche-telekom-repo/.quality/lint/shellcheck-result.json",
+    "shfmt": "/repos/deutsche-telekom-repo/.quality/lint/shfmt-result.json",
+    "yamllint": "/repos/deutsche-telekom-repo/.quality/lint/yamllint-result.json"
+  },
+  "truncated": true
+}

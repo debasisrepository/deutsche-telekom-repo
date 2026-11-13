@@ -1,0 +1,191 @@
+{
+  "tool": "djlint",
+  "status": "issues_found",
+  "errors": 11,
+  "warnings": 0,
+  "total_findings": 11,
+  "inline_findings": 11,
+  "remaining_findings": 0,
+  "files": [
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/index.html",
+      "findings": [
+        {
+          "msg": "Consider adding a meta description. <html lang=\"en\"> <",
+          "line": 2,
+          "column": 0,
+          "code": "H030"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/playwright-report/index.html",
+      "findings": [
+        {
+          "msg": "Found extra blank lines.",
+          "line": 1,
+          "column": 0,
+          "code": "H014"
+        },
+        {
+          "msg": "Html tag should have a non-empty lang attribute. <html style='scrollb",
+          "line": 4,
+          "column": 0,
+          "code": "H005"
+        },
+        {
+          "msg": "Attributes should be double quoted. <html style='scrollb",
+          "line": 4,
+          "column": 0,
+          "code": "H008"
+        },
+        {
+          "msg": "Inline styles should be avoided. <html style=",
+          "line": 4,
+          "column": 0,
+          "code": "H021"
+        },
+        {
+          "msg": "Consider adding a meta description. <html style='scrollb",
+          "line": 4,
+          "column": 0,
+          "code": "H030"
+        },
+        {
+          "msg": "Omit type on scripts and styles. <style type='text/cs",
+          "line": 42,
+          "column": 4,
+          "code": "H024"
+        },
+        {
+          "msg": "Attributes should be double quoted. <div id='root'",
+          "line": 46,
+          "column": 4,
+          "code": "H008"
+        }
+      ]
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/graphify-out/graph.html",
+      "findings": [
+        {
+          "msg": "Consider adding a meta description. <html lang=\"en\"> <he",
+          "line": 2,
+          "column": 0,
+          "code": "H030"
+        },
+        {
+          "msg": "Do not use entity references. &middot;",
+          "line": 97,
+          "column": 29,
+          "code": "H023"
+        },
+        {
+          "msg": "Do not use entity references. &middot;",
+          "line": 97,
+          "column": 49,
+          "code": "H023"
+        }
+      ]
+    }
+  ],
+  "report_path": "/repos/deutsche-telekom-repo/.quality/lint/djlint-result.json",
+  "command": [
+    "/usr/local/bin/djlint",
+    "/app/data/projects/0a3ab7b005be/output/bb5630b27442/repos/deutsche-telekom-repo",
+    "--lint"
+  ],
+  "exit_code": 1,
+  "stdout": "\n\n\nfrontend/index.html\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nH030 2:0 Consider adding a meta description. <html lang=\"en\"> <\n\nfrontend/playwright-report/index.html\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nH014 1:0 Found extra blank lines. \nH005 4:0 Html tag should have a non-empty lang attribute. <html style='scrollb\nH008 4:0 Attributes should be double quoted. <html style='scrollb\nH021 4:0 Inline styles should be avoided. <html style=\nH030 4:0 Consider adding a meta description. <html style='scrollb\nH024 42:4 Omit type on scripts and styles. <style type='text/cs\nH008 46:4 Attributes should be double quoted. <div id='root'\n\ngraphify-out/graph.html\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nH030 2:0 Consider adding a meta description. <html lang=\"en\"> <he\nH023 97:29 Do not use entity references. &middot;\nH023 97:49 Do not use entity references. &middot;\n\nLinted 3 files, found 11 errors.\n\n",
+  "stderr": "Linting 3/3 files\n",
+  "all_findings": [
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/index.html",
+      "line": 2,
+      "column": 0,
+      "code": "H030",
+      "msg": "Consider adding a meta description. <html lang=\"en\"> <",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/playwright-report/index.html",
+      "line": 1,
+      "column": 0,
+      "code": "H014",
+      "msg": "Found extra blank lines.",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/playwright-report/index.html",
+      "line": 4,
+      "column": 0,
+      "code": "H005",
+      "msg": "Html tag should have a non-empty lang attribute. <html style='scrollb",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/playwright-report/index.html",
+      "line": 4,
+      "column": 0,
+      "code": "H008",
+      "msg": "Attributes should be double quoted. <html style='scrollb",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/playwright-report/index.html",
+      "line": 4,
+      "column": 0,
+      "code": "H021",
+      "msg": "Inline styles should be avoided. <html style=",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/playwright-report/index.html",
+      "line": 4,
+      "column": 0,
+      "code": "H030",
+      "msg": "Consider adding a meta description. <html style='scrollb",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/playwright-report/index.html",
+      "line": 42,
+      "column": 4,
+      "code": "H024",
+      "msg": "Omit type on scripts and styles. <style type='text/cs",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/frontend/playwright-report/index.html",
+      "line": 46,
+      "column": 4,
+      "code": "H008",
+      "msg": "Attributes should be double quoted. <div id='root'",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/graphify-out/graph.html",
+      "line": 2,
+      "column": 0,
+      "code": "H030",
+      "msg": "Consider adding a meta description. <html lang=\"en\"> <he",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/graphify-out/graph.html",
+      "line": 97,
+      "column": 29,
+      "code": "H023",
+      "msg": "Do not use entity references. &middot;",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/deutsche-telekom-repo/graphify-out/graph.html",
+      "line": 97,
+      "column": 49,
+      "code": "H023",
+      "msg": "Do not use entity references. &middot;",
+      "severity": "error"
+    }
+  ]
+}

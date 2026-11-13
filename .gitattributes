@@ -1,0 +1,11 @@
+# Line ending normalization
+* text=auto
+
+# Shell scripts must use LF
+*.sh text eol=lf
+
+# Batch files must use CRLF
+*.bat text eol=crlf
+
+# Ensure package-lock.json is treated as text
+package-lock.json text eol=lf

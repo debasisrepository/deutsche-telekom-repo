@@ -1,0 +1,35 @@
+@use '@carbon/styles/scss/spacing' as spacing;
+@use '@carbon/styles/scss/theme' as theme;
+
+.ranked-supplier-rank {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  width: 48px;
+  display: inline-block;
+}
+
+.citation-badge {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: spacing.$spacing-02;
+}
+
+.confidence-display {
+  display: flex;
+  align-items: center;
+  gap: spacing.$spacing-03;
+}
+
+.confidence-value {
+  white-space: nowrap;
+}
+
+.confidence-high .cds--progress-bar__bar {
+  background: theme.$support-success;
+}
+
+.confidence-medium .cds--progress-bar__bar {
+  background: theme.$support-warning;
+}

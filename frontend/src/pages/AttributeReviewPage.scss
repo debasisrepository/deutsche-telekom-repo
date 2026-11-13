@@ -1,0 +1,25 @@
+@use '@carbon/styles/scss/spacing';
+@use '@carbon/styles/scss/theme';
+
+.review-casebar {
+  display: flex;
+  gap: spacing.$spacing-09;
+  border: 1px solid theme.$border-subtle-01;
+  padding: spacing.$spacing-04 spacing.$spacing-05;
+}
+
+.review-decision-card {
+  background: theme.$background;
+  border: 1px solid theme.$border-subtle-01;
+  padding: spacing.$spacing-05;
+}
+
+.review-label {
+  display: block;
+  margin-bottom: spacing.$spacing-03;
+}
+
+.review-actions {
+  flex-direction: row !important;
+  align-items: center;
+}

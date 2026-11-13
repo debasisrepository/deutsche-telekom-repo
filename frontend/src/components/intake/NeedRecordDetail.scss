@@ -1,0 +1,34 @@
+@use '@carbon/styles/scss/spacing';
+@use '@carbon/styles/scss/theme';
+
+.need-record-card {
+  background: theme.$background;
+  border: 1px solid theme.$border-subtle-01;
+  padding: spacing.$spacing-05;
+}
+
+.need-record-heading {
+  margin-bottom: spacing.$spacing-03;
+}
+
+.need-record-dl {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: spacing.$spacing-03 spacing.$spacing-05;
+  margin: 0;
+}
+
+.need-record-dd {
+  margin: 0;
+}
+
+.need-record-label {
+  display: block;
+  margin-bottom: spacing.$spacing-03;
+}
+
+.need-record-actions {
+  margin-top: spacing.$spacing-07;
+  flex-direction: row !important;
+  align-items: center;
+}

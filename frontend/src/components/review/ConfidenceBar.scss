@@ -1,0 +1,34 @@
+@use '@carbon/styles/scss/spacing';
+@use '@carbon/styles/scss/theme';
+
+.confidence-bar-container {
+  display: flex;
+  align-items: center;
+  gap: spacing.$spacing-03;
+  min-width: 150px;
+}
+
+.confidence-bar-track {
+  height: 8px;
+  background: theme.$layer-accent-01;
+  width: 80px;
+  position: relative;
+}
+
+.confidence-bar-fill {
+  display: block;
+  height: 8px;
+}
+
+.confidence-bar-fill-green {
+  background: theme.$support-success;
+}
+
+.confidence-bar-fill-yellow {
+  background: theme.$support-warning;
+}
+
+.confidence-bar-icon {
+  color: theme.$text-primary;
+  flex-shrink: 0;
+}

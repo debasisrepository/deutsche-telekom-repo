@@ -1,0 +1,20 @@
+@use '@carbon/styles/scss/spacing';
+@use '@carbon/styles/scss/theme';
+
+.source-comparison-card {
+  background: theme.$background;
+  border: 1px solid theme.$border-subtle-01;
+  padding: spacing.$spacing-05;
+}
+
+.source-comparison-excerpt {
+  background: theme.$layer-01;
+  padding: spacing.$spacing-05;
+  white-space: pre-wrap;
+  margin-top: spacing.$spacing-03;
+}
+
+.source-comparison-help {
+  color: theme.$text-helper;
+  margin-top: spacing.$spacing-02;
+}

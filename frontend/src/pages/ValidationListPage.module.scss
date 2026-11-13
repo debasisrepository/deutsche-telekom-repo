@@ -1,0 +1,17 @@
+@use '@carbon/styles/scss/spacing';
+
+.container {
+  padding: spacing.$spacing-05;
+}
+
+.header {
+  margin-bottom: spacing.$spacing-07;
+}
+
+.header h1 {
+  margin-bottom: spacing.$spacing-03;
+}
+
+.header p {
+  color: var(--cds-text-secondary);
+}

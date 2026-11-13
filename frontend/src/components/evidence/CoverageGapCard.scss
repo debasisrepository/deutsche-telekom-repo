@@ -1,0 +1,30 @@
+@use '@carbon/styles/scss/spacing' as spacing;
+@use '@carbon/styles/scss/theme' as theme;
+
+.coverage-gap-card {
+  background: theme.$layer-01;
+  padding: spacing.$spacing-05;
+  border: 1px solid theme.$border-subtle-01;
+}
+
+.coverage-gap-header {
+  display: flex;
+  align-items: center;
+  gap: spacing.$spacing-03;
+  margin-bottom: spacing.$spacing-03;
+}
+
+.coverage-gap-title {
+  font-weight: 600;
+}
+
+.coverage-gap-description {
+  margin: 0 0 spacing.$spacing-05 0;
+}
+
+.coverage-gap-actions {
+  display: flex;
+  gap: spacing.$spacing-05;
+  align-items: center;
+  margin-bottom: spacing.$spacing-03;
+}

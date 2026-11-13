@@ -1,0 +1,29 @@
+@use '@carbon/styles/scss/spacing';
+@use '@carbon/styles/scss/theme';
+
+.vms-handoff-list-page {
+  &__loading-container {
+    padding: spacing.$spacing-07;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__error-container {
+    padding: spacing.$spacing-07;
+  }
+
+  &__header {
+    margin-bottom: spacing.$spacing-05;
+  }
+
+  &__lead {
+    margin-bottom: spacing.$spacing-07;
+    color: theme.$text-secondary;
+  }
+
+  &__empty-state {
+    padding: spacing.$spacing-07;
+    text-align: center;
+    color: theme.$text-secondary;
+  }
+}
